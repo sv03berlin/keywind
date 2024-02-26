@@ -77,6 +77,7 @@
           <#if realm.internationalizationEnabled && locale.supported?size gt 1>
             <@localeProvider.kw currentLocale=locale.current locales=locale.supported />
           </#if>
+          <a href="https://sv03.de/index.php/impressum">Impressum</a>
         </@nav.kw>
       </@container.kw>
     </@body.kw>

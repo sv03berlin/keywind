@@ -230,7 +230,7 @@
         <section class="pf-c-page__main-section pf-m-limit-width pf-m-light pf-m-shadow-bottom">
             <div class="pf-c-page__main-body">
                 <div class="pf-c-content" id="landingWelcomeMessage">
-                    <h1>${msg("accountManagementWelcomeMessage")}</h1>
+                    <h1>${msg("accountManagementWelcomeMessage")} der Seglervereinigung 1903 Berlin e.V.</h1>
                 </div>
             </div>
         </section>

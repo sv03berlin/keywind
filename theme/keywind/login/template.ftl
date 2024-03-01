@@ -9,6 +9,7 @@
 <#import "components/atoms/nav.ftl" as nav>
 <#import "components/molecules/locale-provider.ftl" as localeProvider>
 <#import "components/molecules/username.ftl" as username>
+<#import "components/atoms/link.ftl" as link>
 
 <#macro
   registrationLayout
@@ -77,7 +78,9 @@
           <#if realm.internationalizationEnabled && locale.supported?size gt 1>
             <@localeProvider.kw currentLocale=locale.current locales=locale.supported />
           </#if>
-          <a href="https://sv03.de/index.php/impressum">Impressum</a>
+          <@link.kw color="secondary" href="https://sv03.de/index.php/impressum" size="small">
+            Impressum
+          </@link.kw>
         </@nav.kw>
       </@container.kw>
     </@body.kw>
